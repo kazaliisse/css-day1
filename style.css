@@ -1,0 +1,55 @@
+/*styles*/
+h1{
+    font-size: medium;
+    color: yellow;
+}
+nav ul{
+    background-color: green;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    padding: 25px;
+
+
+}
+nav ul li{
+    padding: 10px;
+    margin-left: 5px;
+    justify-content: center;
+    flex-wrap: wrap;
+    list-style-type: none;
+    display: inline;
+    
+}
+
+nav ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 5px 10px;
+    float: left;
+    
+    
+}
+body{
+    background-color: purple;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+    
+
+nav ul li a:hover{
+    background-color: red;
+    color: #fff;
+    transition: 0.9s;
+
+}
+nav  li a{
+    color: #fff;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+}
+
+
